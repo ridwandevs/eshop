@@ -98,6 +98,9 @@
             </main>
         </div>
 
+        <!-- Toast Notifications -->
+        <x-toast />
+
         @livewireScripts
     </body>
 </html>

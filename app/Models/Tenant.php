@@ -11,6 +11,19 @@ class Tenant extends BaseTenant implements TenantWithDatabase
 {
     use HasDatabase, HasDomains;
 
+    /**
+     * Custom columns that should be stored as actual database columns
+     * instead of in the JSON 'data' column
+     */
+    public static function getCustomColumns(): array
+    {
+        return [
+            'id',
+            'subdomain',
+            'owner_id',
+        ];
+    }
+
     protected $fillable = [
         'id',
         'name',

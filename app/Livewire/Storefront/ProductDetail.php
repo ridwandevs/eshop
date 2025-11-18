@@ -6,7 +6,7 @@ use App\Models\Product;
 use App\Services\CartService;
 use Livewire\Component;
 use Livewire\Attributes\Layout;
-use Mary\Traits\Toast;
+use App\Traits\Toast;
 
 #[Layout('layouts.storefront')]
 class ProductDetail extends Component

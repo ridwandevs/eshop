@@ -6,7 +6,7 @@ use App\Models\Product;
 use Livewire\Component;
 use Livewire\WithPagination;
 use Livewire\Attributes\Layout;
-use Mary\Traits\Toast;
+use App\Traits\Toast;
 
 #[Layout('layouts.shop')]
 class Index extends Component
