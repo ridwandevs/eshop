@@ -41,5 +41,8 @@
             {{ $slot }}
         </x-slot:content>
     </x-main>
+
+    <!-- Toast Notifications -->
+    <x-toast />
 </body>
 </html>

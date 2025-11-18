@@ -33,5 +33,8 @@
             <p>Copyright © {{ date('Y') }} - All rights reserved</p>
         </div>
     </footer>
+
+    <!-- Toast Notifications -->
+    <x-toast />
 </body>
 </html>

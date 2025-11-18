@@ -8,7 +8,7 @@ use Livewire\Component;
 use Livewire\WithFileUploads;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Validate;
-use Mary\Traits\Toast;
+use App\Traits\Toast;
 
 #[Layout('layouts.shop')]
 class Create extends Component

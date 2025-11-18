@@ -6,7 +6,7 @@ use App\Models\Tenant;
 use Livewire\Component;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
-use Mary\Traits\Toast;
+use App\Traits\Toast;
 
 #[Layout('layouts.central')]
 #[Title('My Stores')]

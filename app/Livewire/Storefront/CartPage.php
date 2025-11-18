@@ -7,7 +7,7 @@ use Livewire\Component;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
 use Livewire\Attributes\On;
-use Mary\Traits\Toast;
+use App\Traits\Toast;
 
 #[Layout('layouts.storefront')]
 #[Title('Shopping Cart')]
